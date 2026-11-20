@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Compile Include="AntiCrawler.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TShockAPI">
+      <HintPath>TShockAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="OTAPI">
+      <HintPath>OTAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="TShock.Server">
+      <HintPath>TShock.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="TerrariaServer">
+      <HintPath>TerrariaServer.exe</HintPath>
+    </Reference>
+	<Reference Include="Newtonsoft.Json">
+      <HintPath>Newtonsoft.Json.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
