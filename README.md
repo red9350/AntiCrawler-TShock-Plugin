@@ -1,5 +1,6 @@
 # AntiCrawler-TShock-Plugin
 Prevents crawler bots from connecting to a Terraria TShock server, kicking and temporarily banning them. All info is logged to the server console and sent in chat to superAdmins and players with the anticrawler.notify permission node.
+
 A config file is automatically created in the plugins directory at first run, and can be freely edited and live-reloaded via the specific command.
 
 These are the defaults and explanations:
