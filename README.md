@@ -46,8 +46,6 @@ prints how many player slots are occupied
 
 unbans an IP address
 
-and again equal to
-
 `/ac reload`
 
 reloads the config file
