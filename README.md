@@ -52,4 +52,4 @@ reloads the config file
 
 ------
 ## INSTALLATION:
-Just drop the `CaseInsensitiveLogin.dll` from the [Releases tab](https://github.com/red9350/AntiCrawler-TShock-Plugin/releases) to your ServerPlugins directory and restart TShock
+Just drop the `AntiCrawler.dll` from the [Releases tab](https://github.com/red9350/AntiCrawler-TShock-Plugin/releases) to your ServerPlugins directory and restart TShock
